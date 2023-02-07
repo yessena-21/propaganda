@@ -1,0 +1,274 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/inter.css);
+@import url(./vendor/roboto.css);
+
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    max-width: 1080px;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+
+.header__title {
+    font-family: 'RobotoFlex', Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.header__subtitle {
+    font-family: 'RobotoFlex', Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.intro {
+    margin: 0 auto;
+
+}
+
+.intro__container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1080px;
+}
+
+.intro__text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__text {
+    margin: 35px auto 0 auto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    font-style: italic;
+
+}
+
+.intro__text-2 {
+    margin: 100px auto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    max-width: 1080px;
+    font-style: italic;
+
+}
+
+.intro__img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__img {
+    max-width: 340px;
+    max-height: 320px;
+}
+
+.photo {
+    height: 500px;
+    margin: 0;
+}
+
+.main-photo {
+    background-image: url("./images/main.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+
+}
+
+.main-title-box {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.main-title-text {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+   
+
+}
+
+.illustrator-name {
+    font-size: 12px;
+    font-style: italic;
+    margin: 5px auto 0 10px;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    border-bottom: 1px solid rgb(1, 1, 1);
+    margin: 90px auto 70px auto;
+
+}
+
+.cards-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-small__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.card-small__foto {
+    width: 330px;
+    height: 330px;
+
+}
+
+.card-small__foto-full {
+    width: 1280px;
+    height: 500px;
+    background-image: url("./images/demonisation.JPG");
+    background-size: cover;
+}
+    
+
+.card-small__title {
+    width: 100%;
+    text-align: center;
+
+}
+
+ul {
+    margin: 0;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed>li {
+    text-indent: -5px;
+}
+
+ul.dashed>li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+.small__title-text {
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.text {
+    max-width: 550px;
+}
+
+.text-box {
+    display: block;
+    margin: 0 auto;
+    align-self: flex-start;
+}
+
+.text-box__paragraf {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+
+
+}
+
+th {
+    padding: 10px; 
+    border: 1px solid #A9E2CC;
+  }
+  td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #A9E2CC;
+  }
+@media screen and (max-width: 1140px) {
+    .header {
+        max-width: 600px;
+        align-items: flex-start;
+    }
+
+    .header__title {
+        font-size: 45px;
+    }
+
+    .header__subtitle {
+        font-size: 45px;
+    }
+
+    .intro__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro__text {
+        margin: 20px auto 0 auto;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        max-width: 600px;
+        font-style: italic;
+
+    }
+
+    .intro__text-2 {
+        margin: 100px auto;
+        font-size: 26px;
+        max-width: 600px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .intro__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+}
