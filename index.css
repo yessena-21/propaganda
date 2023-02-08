@@ -284,6 +284,7 @@ ul {
 
 .ul-simple {
     list-style-type: none;
+    margin: 0;
 }
 .ul-simple-2 {
     list-style-type: none;
@@ -427,6 +428,12 @@ th {
     .illustrator-name{
         font-size: 6px;
         margin: 2px auto 0 5px;
+    }
+    .card-new__container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 400px;
     }
 }
 
