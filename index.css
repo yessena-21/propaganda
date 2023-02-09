@@ -7,7 +7,7 @@ body {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 a{
- text-decoration: dotted;
+ text-decoration-style: dotted;
  color: #000;
 }
 .header {
@@ -36,6 +36,27 @@ a{
 }
 
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 1080px;
+    align-items: flex-start;
+    justify-items: flex-start;
+    background-color: #fcf9f5;
+    font-size: 16px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 95%;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
 .intro {
     margin: 0 auto;
 
@@ -114,6 +135,7 @@ a{
     display: flex;
     justify-content: center;
     margin: 0;
+    margin-top: 40px;
 
 }
 
@@ -402,6 +424,10 @@ ul {
 
 }
 
+
+.ul-numeric_fon {
+    background-color: #f6f6fb;
+}
 .ul-simple {
     list-style-type: none;
     margin: 0;
