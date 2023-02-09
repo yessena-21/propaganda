@@ -218,7 +218,7 @@ a{
 .card-big__container {
     display: flex;
     flex-direction: row;
-
+    position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -227,6 +227,15 @@ a{
     width: 100%;
     max-width: 1280px;
 
+}
+.card-big-letter{
+    position: absolute;
+    height: 150px;
+}
+
+.card-big-letter_f, .card-big-letter_n, .card-big-letter_r
+{
+    
 }
 
 .card-big__container_invisible {
