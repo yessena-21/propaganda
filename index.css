@@ -133,7 +133,7 @@ a{
     display: flex;
     flex-direction: column;
     background-color: black;
-    background-image: url("./images/main.jpg");
+    background-image: url("./images/imgs/main.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -267,24 +267,24 @@ a{
 }
 
 .card-big__container_d {
-    background-image: url("./images/demon.png");
+    background-image: url("./images/imgs/5_big.png");
     background-color: rgba(0, 0, 0, 0.6);
     justify-content: end;
 }
 
 .card-big__container_n {
-    background-image: url("./images/small-images/IMG_1541.JPG");
+    background-image: url("./images/imgs/13_big.JPG");
     background-color: #000;
     justify-content: start;
 }
 
 .card-big__container_r {
-    background-image: url("./images/small-images/IMG_1545.JPG");
+    background-image: url("./images/imgs/16_big.JPG");
     background-color: #000;
     justify-content: start;
 }
 .card-big__container_f {
-    background-image: url("./images/IMG_1562.PNG");
+    background-image: url("./images/imgs/20_big.PNG");
     background-color: #000;
     justify-content: start;
 }
