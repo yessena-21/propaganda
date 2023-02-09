@@ -666,7 +666,10 @@ td {
         display: inherit;
     }
 
-
+    .footer{
+        width: 100%;
+        font-size: 12px;
+        }
 }
 
 @media screen and (max-width: 830px) {
@@ -765,9 +768,8 @@ td {
     .line-2{
         margin: 80px auto 60px auto;
     }
-    .footer-a{
+    .footer{
     width: 100%;
-    max-width: 320px;
     font-size: 10px;
     }
 }
