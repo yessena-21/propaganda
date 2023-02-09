@@ -6,7 +6,10 @@ body {
     margin: 0;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
-
+a{
+ text-decoration: dotted;
+ color: #000;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -279,7 +282,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 420px;
     margin-left: 50px;
 
 }
